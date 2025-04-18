@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Аналитика</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>HR Аналитика</h1>
+            <p class="subtitle">Загрузите резюме для анализа компетенций кандидата</p>
+        </header>
+        
+        <div class="upload-section">
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div id="dropZone" class="drop-zone">
+                    <input type="file" id="resume" name="resume" accept=".pdf,.docx" class="file-input">
+                    <div class="drop-zone-content">
+                        <svg class="upload-icon" width="50" height="50" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/>
+                        </svg>
+                        <p class="drop-text">Перетащите резюме сюда или</p>
+                        <label for="resume" class="browse-button">Выберите файл</label>
+                        <p class="file-info">Поддерживаемые форматы: PDF, DOCX</p>
+                    </div>
+                </div>
+                
+                <div id="fileInfo" class="selected-file" style="display: none;">
+                    <span id="fileName"></span>
+                    <button type="submit" class="analyze-button">Анализировать резюме</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="loadingIndicator" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Анализируем ваше резюме...</p>
+        </div>
+
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+        <div id="resultsContainer" class="results" style="display: none;">
+            <div class="score-section">
+                <h2>Общий балл</h2>
+                <div id="overallScore" class="score"></div>
+            </div>
+
+            <div class="role-fit-section">
+                <h2>Наиболее подходящая роль</h2>
+                <div id="bestFitRole" class="best-fit"></div>
+                
+                <h3>Все роли</h3>
+                <div id="allRoles" class="all-roles"></div>
+            </div>
+
+            <div class="details-section">
+                <h2>Детальный анализ</h2>
+                <div class="detail-scores">
+                    <div class="detail-item">
+                        <h3>Образование</h3>
+                        <div id="educationScore" class="score"></div>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Опыт работы</h3>
+                        <div id="experienceScore" class="score"></div>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Навыки</h3>
+                        <div id="skillsScore" class="score"></div>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Языки</h3>
+                        <div id="languagesScore" class="score"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations-section">
+                <h2>Рекомендации</h2>
+                <div class="recommendations">
+                    <div class="recommendation-group">
+                        <h3>Сильные стороны</h3>
+                        <ul id="strengthsList"></ul>
+                    </div>
+                    <div class="recommendation-group">
+                        <h3>Области для улучшения</h3>
+                        <ul id="weaknessesList"></ul>
+                    </div>
+                    <div class="recommendation-group">
+                        <h3>Рекомендации</h3>
+                        <ul id="improvementsList"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

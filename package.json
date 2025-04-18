@@ -1,0 +1,8 @@
+{
+  "name": "hr-analytics-system",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "python start.py"
+  }
+}
