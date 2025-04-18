@@ -1,0 +1,507 @@
+experience_matrix:
+  # Типичные должности в IT/аналитике
+  positions:
+    - name: "Data Scientist"
+      aliases: ["data scientist", "machine learning engineer", "ml engineer", "ai scientist", "дата саентист", "специалист по данным", "специалист по машинному обучению", "инженер по машинному обучению"]
+      weight: 1.2
+      flags:
+        - "technical"
+        - "ai"
+      required_skills:
+        - "Python"
+        - "Machine Learning"
+        - "Statistics"
+        - "Data Analysis"
+      preferred_skills:
+        - "Deep Learning"
+        - "Natural Language Processing"
+        - "Computer Vision"
+        - "Big Data"
+
+    - name: "Data Engineer"
+      aliases: ["data engineer", "big data engineer", "etl developer", "data architect", "инженер данных", "инженер больших данных", "разработчик etl", "архитектор данных"]
+      weight: 1.1
+      flags:
+        - "technical"
+        - "infrastructure"
+      required_skills:
+        - "Python"
+        - "SQL"
+        - "Big Data"
+        - "Data Warehousing"
+      preferred_skills:
+        - "Spark"
+        - "Hadoop"
+        - "Kafka"
+        - "Cloud Computing"
+
+    - name: "Technical Analyst"
+      aliases: ["technical analyst", "business analyst", "data analyst", "analytics engineer", "технический аналитик", "бизнес-аналитик", "аналитик данных", "инженер аналитики"]
+      weight: 1.0
+      flags:
+        - "technical"
+        - "analytics"
+      required_skills:
+        - "SQL"
+        - "Data Analysis"
+        - "Business Intelligence"
+        - "Data Visualization"
+      preferred_skills:
+        - "Python"
+        - "Statistics"
+        - "A/B Testing"
+        - "Project Management"
+
+    - name: "AI Manager"
+      aliases: ["ai manager", "ml manager", "data science manager", "ai lead", "руководитель по ии", "руководитель по машинному обучению", "руководитель отдела данных", "тимлид"]
+      weight: 1.1
+      flags:
+        - "management"
+        - "ai"
+      required_skills:
+        - "Project Management"
+        - "Machine Learning"
+        - "Team Leadership"
+        - "Strategic Planning"
+      preferred_skills:
+        - "Business Strategy"
+        - "Product Management"
+        - "Risk Management"
+        - "Communication"
+
+    - name: "ML Engineer"
+      aliases: ["ml engineer", "machine learning engineer", "ai engineer", "deep learning engineer", "инженер по машинному обучению", "инженер по ии", "инженер по глубокому обучению"]
+      weight: 1.2
+      flags:
+        - "technical"
+        - "ai"
+      required_skills:
+        - "Python"
+        - "Deep Learning"
+        - "Machine Learning"
+        - "Software Engineering"
+      preferred_skills:
+        - "TensorFlow"
+        - "PyTorch"
+        - "Computer Vision"
+        - "Natural Language Processing"
+
+    - name: "Data Architect"
+      aliases: ["data architect", "solution architect", "enterprise architect", "data platform architect", "архитектор данных", "архитектор решений", "корпоративный архитектор", "архитектор платформы данных"]
+      weight: 1.1
+      flags:
+        - "technical"
+        - "infrastructure"
+      required_skills:
+        - "Data Architecture"
+        - "Cloud Computing"
+        - "Data Modeling"
+        - "System Design"
+      preferred_skills:
+        - "AWS"
+        - "Azure"
+        - "GCP"
+        - "Data Security"
+
+    - name: "Business Intelligence Analyst"
+      aliases: ["bi analyst", "business intelligence analyst", "analytics consultant", "data consultant", "аналитик бизнес-интеллекта", "консультант по аналитике", "аналитик данных"]
+      weight: 1.0
+      flags:
+        - "business"
+        - "analytics"
+      required_skills:
+        - "Business Intelligence"
+        - "Data Visualization"
+        - "SQL"
+        - "Business Analysis"
+      preferred_skills:
+        - "Power BI"
+        - "Tableau"
+        - "Data Storytelling"
+        - "Project Management"
+
+    - name: "Research Scientist"
+      aliases: ["research scientist", "research engineer", "ai researcher", "ml researcher", "научный сотрудник", "исследователь", "научный работник", "исследователь по ии"]
+      weight: 1.2
+      flags:
+        - "research"
+        - "ai"
+      required_skills:
+        - "Research"
+        - "Machine Learning"
+        - "Statistics"
+        - "Scientific Writing"
+      preferred_skills:
+        - "Deep Learning"
+        - "Natural Language Processing"
+        - "Computer Vision"
+        - "Reinforcement Learning"
+
+  # Релевантные компании
+  companies:
+    - name: "Tech Giants"
+      aliases: ["google", "microsoft", "amazon", "apple", "meta", "facebook", "гугл", "майкрософт", "амазон", "эппл", "мета", "фейсбук"]
+      weight: 1.0
+      flags:
+        - "prestigious"
+        - "high_tech"
+        - "innovative"
+
+    - name: "AI Startups"
+      aliases: ["startup", "scaleup", "tech startup", "ai company", "стартап", "технологический стартап", "компания по ии"]
+      weight: 0.9
+      flags:
+        - "innovative"
+        - "fast_paced"
+        - "cutting_edge"
+
+    - name: "Financial Services"
+      aliases: ["bank", "financial", "investment", "insurance", "fintech", "банк", "финансовые услуги", "инвестиции", "страхование", "финтех"]
+      weight: 0.8
+      flags:
+        - "regulated"
+        - "data_sensitive"
+        - "high_stakes"
+
+    - name: "Consulting"
+      aliases: ["consulting", "advisory", "professional services", "big4", "консалтинг", "консультационные услуги", "профессиональные услуги", "большая четверка"]
+      weight: 0.8
+      flags:
+        - "diverse_projects"
+        - "client_facing"
+        - "business_focused"
+
+    - name: "Research Institutions"
+      aliases: ["university", "research lab", "academic", "institute", "университет", "исследовательская лаборатория", "академический институт"]
+      weight: 0.9
+      flags:
+        - "academic"
+        - "research"
+        - "publication"
+
+  # Типичные задачи и их вес
+  tasks:
+    - name: "Machine Learning Development"
+      aliases: ["machine learning", "ml", "ai", "deep learning", "model development", "машинное обучение", "ии", "глубокое обучение", "разработка моделей"]
+      weight: 1.0
+      flags:
+        - "technical"
+        - "research"
+        - "innovation"
+
+    - name: "Data Engineering"
+      aliases: ["data engineering", "etl", "data pipeline", "data infrastructure", "инженерия данных", "etl", "конвейер данных", "инфраструктура данных"]
+      weight: 1.0
+      flags:
+        - "technical"
+        - "infrastructure"
+        - "scalability"
+
+    - name: "Data Analysis"
+      aliases: ["data analysis", "analytics", "statistics", "business intelligence", "анализ данных", "аналитика", "статистика", "бизнес-аналитика"]
+      weight: 0.9
+      flags:
+        - "analytical"
+        - "business"
+        - "insights"
+
+    - name: "Project Management"
+      aliases: ["project management", "team lead", "scrum master", "product owner", "управление проектами", "тимлид", "скрам-мастер", "владелец продукта"]
+      weight: 0.9
+      flags:
+        - "leadership"
+        - "organization"
+        - "communication"
+
+    - name: "Research"
+      aliases: ["research", "academic", "scientific", "publication", "исследования", "академическая работа", "научная работа", "публикации"]
+      weight: 1.0
+      flags:
+        - "academic"
+        - "innovation"
+        - "publication"
+
+  # Отрасли и их релевантность
+  industries:
+    - name: "Technology"
+      aliases: ["tech", "software", "it", "internet", "digital", "технологии", "софт", "айти", "интернет", "цифровые технологии"]
+      weight: 1.2
+      flags:
+        - "tech"
+        - "innovation"
+        - "fast_paced"
+
+    - name: "Finance"
+      aliases: ["finance", "banking", "investment", "insurance", "fintech", "финансы", "банковское дело", "инвестиции", "страхование", "финтех"]
+      weight: 1.1
+      flags:
+        - "finance"
+        - "analytics"
+
+    - name: "Healthcare"
+      aliases: ["healthcare", "medical", "pharmaceutical", "biotech", "здравоохранение", "медицина", "фармацевтика", "биотехнологии"]
+      weight: 1.1
+      flags:
+        - "healthcare"
+        - "research"
+
+    - name: "Retail"
+      aliases: ["retail", "ecommerce", "consumer", "shopping", "ритейл", "электронная коммерция", "потребительский сектор", "торговля"]
+      weight: 1.0
+      flags:
+        - "retail"
+        - "analytics"
+
+    - name: "Manufacturing"
+      aliases: ["manufacturing", "industrial", "production", "automation", "производство", "промышленность", "автоматизация"]
+      weight: 0.9
+      flags:
+        - "industrial"
+        - "operations"
+
+  experience_levels:
+    - name: "Senior"
+      aliases: ["senior", "lead", "principal", "старший", "лид", "принципал"]
+      weight: 1.2
+      min_years: 5
+      flags:
+        - "leadership"
+        - "expertise"
+
+    - name: "Mid-Level"
+      aliases: ["mid-level", "middle", "experienced", "средний уровень", "мидл", "опытный"]
+      weight: 1.0
+      min_years: 3
+      max_years: 5
+      flags:
+        - "proficiency"
+        - "independence"
+
+    - name: "Junior"
+      aliases: ["junior", "entry-level", "beginner", "джуниор", "начальный уровень", "начинающий"]
+      weight: 0.8
+      max_years: 3
+      flags:
+        - "learning"
+        - "growth"
+
+  industry_weights:
+    - name: "Technology"
+      aliases: ["tech", "software", "it", "internet", "digital", "технологии", "софт", "айти", "интернет", "цифровые технологии"]
+      weight: 1.2
+      flags:
+        - "tech"
+        - "innovation"
+
+    - name: "Finance"
+      aliases: ["finance", "banking", "investment", "insurance", "fintech", "финансы", "банковское дело", "инвестиции", "страхование", "финтех"]
+      weight: 1.1
+      flags:
+        - "finance"
+        - "analytics"
+
+    - name: "Healthcare"
+      aliases: ["healthcare", "medical", "pharmaceutical", "biotech", "здравоохранение", "медицина", "фармацевтика", "биотехнологии"]
+      weight: 1.1
+      flags:
+        - "healthcare"
+        - "research"
+
+    - name: "E-commerce"
+      aliases: ["e-commerce", "online retail", "digital commerce", "электронная коммерция", "онлайн-торговля", "цифровая торговля"]
+      weight: 1.0
+      flags:
+        - "retail"
+        - "analytics"
+
+    - name: "Manufacturing"
+      aliases: ["manufacturing", "industrial", "production", "automation", "производство", "промышленность", "автоматизация"]
+      weight: 0.9
+      flags:
+        - "industrial"
+        - "operations"
+
+  flags:
+    - name: "prestigious"
+      description: "Работа в престижной компании"
+      weight: 1.2
+
+    - name: "high_tech"
+      description: "Работа в высокотехнологичной отрасли"
+      weight: 1.1
+
+    - name: "innovative"
+      description: "Работа над инновационными проектами"
+      weight: 1.1
+
+    - name: "regulated"
+      description: "Работа в регулируемой отрасли"
+      weight: 1.0
+
+    - name: "data_sensitive"
+      description: "Работа с чувствительными данными"
+      weight: 1.0
+
+    - name: "high_stakes"
+      description: "Работа с высокорисковыми проектами"
+      weight: 1.0
+
+    - name: "diverse_projects"
+      description: "Работа над разнообразными проектами"
+      weight: 1.0
+
+    - name: "client_facing"
+      description: "Работа с клиентами"
+      weight: 0.9
+
+    - name: "business_focused"
+      description: "Ориентация на бизнес-результаты"
+      weight: 0.9
+
+    - name: "academic"
+      description: "Академический опыт"
+      weight: 1.0
+
+    - name: "research"
+      description: "Исследовательский опыт"
+      weight: 1.0
+
+    - name: "publication"
+      description: "Публикации и патенты"
+      weight: 1.2
+
+    - name: "technical"
+      description: "Технический опыт"
+      weight: 1.0
+
+    - name: "infrastructure"
+      description: "Опыт работы с инфраструктурой"
+      weight: 1.0
+
+    - name: "scalability"
+      description: "Опыт масштабирования систем"
+      weight: 1.0
+
+    - name: "analytical"
+      description: "Аналитический опыт"
+      weight: 0.9
+
+    - name: "business"
+      description: "Бизнес-опыт"
+      weight: 0.9
+
+    - name: "insights"
+      description: "Опыт работы с инсайтами"
+      weight: 0.9
+
+    - name: "leadership"
+      description: "Опыт руководства"
+      weight: 1.0
+
+    - name: "organization"
+      description: "Организационный опыт"
+      weight: 0.9
+
+    - name: "communication"
+      description: "Коммуникационные навыки"
+      weight: 0.9
+
+    - name: "customer_focused"
+      description: "Ориентация на клиента"
+      weight: 0.8
+
+    - name: "data_driven"
+      description: "Ориентация на данные"
+      weight: 0.9
+
+    - name: "marketing"
+      description: "Маркетинговый опыт"
+      weight: 0.8
+
+    - name: "industrial"
+      description: "Промышленный опыт"
+      weight: 0.8
+
+    - name: "automation"
+      description: "Опыт автоматизации"
+      weight: 0.9
+
+    - name: "optimization"
+      description: "Опыт оптимизации"
+      weight: 0.9
+
+    - name: "technical"
+      description: "Технические роли"
+      weight: 1.2
+
+    - name: "ai"
+      description: "Роли в области ИИ"
+      weight: 1.2
+
+    - name: "analytics"
+      description: "Аналитические роли"
+      weight: 1.1
+
+    - name: "management"
+      description: "Управленческие роли"
+      weight: 1.1
+
+    - name: "business"
+      description: "Бизнес-роли"
+      weight: 1.0
+
+    - name: "research"
+      description: "Исследовательские роли"
+      weight: 1.0
+
+    - name: "leadership"
+      description: "Лидерские качества"
+      weight: 1.2
+
+    - name: "expertise"
+      description: "Экспертные знания"
+      weight: 1.2
+
+    - name: "proficiency"
+      description: "Профессиональные навыки"
+      weight: 1.0
+
+    - name: "independence"
+      description: "Самостоятельность"
+      weight: 1.0
+
+    - name: "learning"
+      description: "Способность к обучению"
+      weight: 0.8
+
+    - name: "growth"
+      description: "Потенциал роста"
+      weight: 0.8
+
+    - name: "tech"
+      description: "Технологическая отрасль"
+      weight: 1.2
+
+    - name: "innovation"
+      description: "Инновационная деятельность"
+      weight: 1.2
+
+    - name: "finance"
+      description: "Финансовая отрасль"
+      weight: 1.1
+
+    - name: "healthcare"
+      description: "Здравоохранение"
+      weight: 1.1
+
+    - name: "retail"
+      description: "Розничная торговля"
+      weight: 1.0
+
+    - name: "industrial"
+      description: "Промышленность"
+      weight: 0.9
+
+    - name: "operations"
+      description: "Операционная деятельность"
+      weight: 0.9 

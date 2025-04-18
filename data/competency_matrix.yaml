@@ -1,0 +1,408 @@
+roles:
+  data_scientist:
+    name: "Data Scientist"
+    aliases: ["data scientist", "ml engineer", "machine learning engineer", "ai engineer", "дата саентист", "специалист по данным", "специалист по машинному обучению", "инженер по машинному обучению"]
+    description: "Специалист по анализу данных и машинному обучению"
+    required_skills:
+      - "Python"
+      - "SQL"
+      - "Machine Learning"
+      - "Statistics"
+      - "Data Analysis"
+    additional_skills:
+      - "Deep Learning"
+      - "NLP"
+      - "Computer Vision"
+      - "Big Data"
+      - "Cloud Platforms"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Computer Science"
+        - "Mathematics"
+        - "Statistics"
+        - "Physics"
+    experience:
+      min_years: 2
+      preferred_years: 3
+      relevant_fields:
+        - "Data Analysis"
+        - "Machine Learning"
+        - "Research"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  data_engineer:
+    name: "Data Engineer"
+    aliases: ["data engineer", "etl developer", "data architect", "big data engineer", "инженер данных", "разработчик etl", "архитектор данных", "инженер больших данных"]
+    description: "Специалист по разработке и поддержке инфраструктуры данных"
+    required_skills:
+      - "Python"
+      - "SQL"
+      - "ETL"
+      - "Data Warehousing"
+      - "Big Data"
+    additional_skills:
+      - "Apache Spark"
+      - "Apache Kafka"
+      - "Docker"
+      - "Kubernetes"
+      - "Cloud Platforms"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Computer Science"
+        - "Software Engineering"
+        - "Information Systems"
+    experience:
+      min_years: 2
+      preferred_years: 3
+      relevant_fields:
+        - "Data Engineering"
+        - "Software Development"
+        - "DevOps"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  technical_analyst:
+    name: "Technical Analyst"
+    aliases: ["technical analyst", "business analyst", "data analyst", "analytics engineer", "технический аналитик", "бизнес-аналитик", "аналитик данных", "инженер аналитики"]
+    description: "Специалист по анализу данных и бизнес-аналитике"
+    required_skills:
+      - "SQL"
+      - "Data Analysis"
+      - "Business Intelligence"
+      - "Excel"
+      - "Data Visualization"
+    additional_skills:
+      - "Python"
+      - "Tableau"
+      - "Power BI"
+      - "Statistics"
+      - "A/B Testing"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Business Analytics"
+        - "Economics"
+        - "Mathematics"
+        - "Computer Science"
+    experience:
+      min_years: 1
+      preferred_years: 2
+      relevant_fields:
+        - "Business Analysis"
+        - "Data Analysis"
+        - "Analytics"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  ai_manager:
+    name: "AI Manager"
+    aliases: ["ai manager", "ml manager", "data science manager", "team lead", "руководитель по ии", "руководитель по машинному обучению", "руководитель отдела данных", "тимлид"]
+    description: "Руководитель проектов в области искусственного интеллекта"
+    required_skills:
+      - "Project Management"
+      - "Machine Learning"
+      - "Business Strategy"
+      - "Team Leadership"
+      - "Product Management"
+    additional_skills:
+      - "Agile"
+      - "Scrum"
+      - "Data Science"
+      - "Cloud Platforms"
+      - "AI Ethics"
+    education:
+      min_degree: "master"
+      preferred_degree: "phd"
+      preferred_fields:
+        - "Computer Science"
+        - "Business Administration"
+        - "Management"
+    experience:
+      min_years: 5
+      preferred_years: 7
+      relevant_fields:
+        - "Project Management"
+        - "AI/ML"
+        - "Leadership"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  ml_engineer:
+    name: "ML Engineer"
+    aliases: ["ml engineer", "machine learning engineer", "ai engineer", "deep learning engineer", "инженер по машинному обучению", "инженер по ии", "инженер по глубокому обучению"]
+    description: "Инженер по машинному обучению"
+    required_skills:
+      - "Python"
+      - "Machine Learning"
+      - "Deep Learning"
+      - "MLOps"
+      - "Software Engineering"
+    additional_skills:
+      - "TensorFlow"
+      - "PyTorch"
+      - "Docker"
+      - "Kubernetes"
+      - "Cloud Platforms"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Computer Science"
+        - "Mathematics"
+        - "Physics"
+    experience:
+      min_years: 2
+      preferred_years: 3
+      relevant_fields:
+        - "Machine Learning"
+        - "Software Development"
+        - "Research"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  data_architect:
+    name: "Data Architect"
+    description: "Архитектор систем обработки данных"
+    required_skills:
+      - "Data Architecture"
+      - "Data Modeling"
+      - "Big Data"
+      - "Cloud Architecture"
+      - "Database Design"
+    additional_skills:
+      - "Data Governance"
+      - "Data Security"
+      - "ETL"
+      - "Data Warehousing"
+      - "Cloud Platforms"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Computer Science"
+        - "Information Systems"
+        - "Software Engineering"
+    experience:
+      min_years: 5
+      preferred_years: 7
+      relevant_fields:
+        - "Data Architecture"
+        - "System Design"
+        - "Database Administration"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  business_intelligence_analyst:
+    name: "Business Intelligence Analyst"
+    description: "Аналитик бизнес-информации"
+    required_skills:
+      - "SQL"
+      - "Business Intelligence"
+      - "Data Visualization"
+      - "Dashboarding"
+      - "Data Analysis"
+    additional_skills:
+      - "Python"
+      - "Tableau"
+      - "Power BI"
+      - "Statistics"
+      - "A/B Testing"
+    education:
+      min_degree: "bachelor"
+      preferred_degree: "master"
+      preferred_fields:
+        - "Business Analytics"
+        - "Economics"
+        - "Information Systems"
+    experience:
+      min_years: 2
+      preferred_years: 3
+      relevant_fields:
+        - "Business Intelligence"
+        - "Data Analysis"
+        - "Analytics"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+  research_scientist:
+    name: "Research Scientist"
+    description: "Научный сотрудник в области искусственного интеллекта"
+    required_skills:
+      - "Machine Learning"
+      - "Deep Learning"
+      - "Research"
+      - "Mathematics"
+      - "Statistics"
+    additional_skills:
+      - "NLP"
+      - "Computer Vision"
+      - "Reinforcement Learning"
+      - "Scientific Writing"
+      - "Python"
+    education:
+      min_degree: "master"
+      preferred_degree: "phd"
+      preferred_fields:
+        - "Computer Science"
+        - "Mathematics"
+        - "Physics"
+        - "Statistics"
+    experience:
+      min_years: 3
+      preferred_years: 5
+      relevant_fields:
+        - "Research"
+        - "Machine Learning"
+        - "Academic"
+    languages:
+      required:
+        - "English"
+      preferred:
+        - "Russian"
+
+competencies:
+  general:
+    - name: "Programming"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Python"
+        - "Java"
+        - "C++"
+        - "R"
+        - "Scala"
+
+    - name: "Data Management"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "SQL"
+        - "NoSQL"
+        - "Data Modeling"
+        - "ETL"
+        - "Data Warehousing"
+
+    - name: "Cloud & DevOps"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "AWS"
+        - "Azure"
+        - "GCP"
+        - "Docker"
+        - "Kubernetes"
+
+  algorithms:
+    - name: "Machine Learning"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Supervised Learning"
+        - "Unsupervised Learning"
+        - "Deep Learning"
+        - "Reinforcement Learning"
+        - "Time Series"
+
+    - name: "Natural Language Processing"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Text Classification"
+        - "Named Entity Recognition"
+        - "Machine Translation"
+        - "Sentiment Analysis"
+        - "Text Generation"
+
+    - name: "Computer Vision"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Object Detection"
+        - "Image Classification"
+        - "Image Segmentation"
+        - "Face Recognition"
+        - "Video Analysis"
+
+  data_management:
+    - name: "Big Data"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Hadoop"
+        - "Spark"
+        - "Kafka"
+        - "Hive"
+        - "HBase"
+
+    - name: "Data Visualization"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Tableau"
+        - "Power BI"
+        - "Matplotlib"
+        - "Seaborn"
+        - "Plotly"
+
+    - name: "Business Intelligence"
+      levels:
+        - "Basic"
+        - "Intermediate"
+        - "Advanced"
+        - "Expert"
+      skills:
+        - "Dashboarding"
+        - "Reporting"
+        - "KPI Analysis"
+        - "Data Storytelling"
+        - "A/B Testing"
+
+level_descriptions:
+  0: "Не требуется"
+  1: "Базовый"
+  2: "Продвинутый"
+  3: "Экспертный"

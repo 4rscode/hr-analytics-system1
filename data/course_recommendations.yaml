@@ -1,0 +1,44 @@
+courses:
+  "Методы машинного обучения":
+    - name: "Machine Learning Specialization"
+      platform: "Coursera"
+      url: "https://www.coursera.org/specializations/machine-learning"
+      duration: "3 месяца"
+      level: "Базовый-Продвинутый"
+
+  "Глубокое обучение":
+    - name: "Deep Learning Specialization"
+      platform: "Coursera"
+      url: "https://www.coursera.org/specializations/deep-learning"
+      duration: "5 месяцев"
+      level: "Продвинутый"
+
+  "SQL базы данных":
+    - name: "PostgreSQL для разработчиков"
+      platform: "Stepik"
+      url: "https://stepik.org/course/postgresql"
+      duration: "2 месяца"
+      level: "Базовый"
+
+  "Анализ естественного языка":
+    - name: "Natural Language Processing Specialization"
+      platform: "Coursera"
+      url: "https://www.coursera.org/specializations/natural-language-processing"
+      duration: "4 месяца"
+      level: "Продвинутый"
+
+  "Анализ изображений и видео":
+    - name: "Computer Vision Specialization"
+      platform: "Coursera"
+      url: "https://www.coursera.org/specializations/computer-vision"
+      duration: "6 месяцев"
+      level: "Продвинутый"
+
+  "Hadoop и большие данные":
+    - name: "Big Data Specialization"
+      platform: "Coursera"
+      url: "https://www.coursera.org/specializations/big-data"
+      duration: "6 месяцев"
+      level: "Продвинутый"
+
+  # ... другие курсы для каждой компетенции

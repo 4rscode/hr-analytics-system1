@@ -1,0 +1,329 @@
+skills_matrix:
+  technical_skills:
+    - name: "Programming Languages"
+      weight: 1.0
+      flags:
+        - "core"
+        - "technical"
+      skills:
+        - name: "Python"
+          aliases: ["python", "py", "python3", "python2", "питон", "пайтон"]
+          weight: 1.2
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "R"
+          aliases: ["r", "r language", "r programming", "язык r", "программирование на r"]
+          weight: 1.1
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "SQL"
+          aliases: ["sql", "mysql", "postgresql", "oracle", "tsql", "эс-кью-эль", "базы данных", "реляционные базы данных"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Java"
+          aliases: ["java", "java8", "java11", "spring", "джава", "ява"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Scala"
+          aliases: ["scala", "spark", "akka", "скала"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "C++"
+          aliases: ["c++", "cpp", "c plus plus", "си плюс плюс", "си++"]
+          weight: 0.8
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+    - name: "Machine Learning"
+      weight: 1.1
+      flags:
+        - "ai"
+        - "technical"
+      skills:
+        - name: "Deep Learning"
+          aliases: ["deep learning", "neural networks", "cnn", "rnn", "lstm", "глубокое обучение", "нейронные сети", "сверточные нейронные сети", "рекуррентные нейронные сети"]
+          weight: 1.2
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Natural Language Processing"
+          aliases: ["nlp", "natural language processing", "text mining", "text analysis", "обработка естественного языка", "анализ текста", "текстовая аналитика"]
+          weight: 1.1
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Computer Vision"
+          aliases: ["computer vision", "cv", "image processing", "object detection", "компьютерное зрение", "обработка изображений", "распознавание объектов"]
+          weight: 1.1
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Reinforcement Learning"
+          aliases: ["reinforcement learning", "rl", "q-learning", "deep rl", "обучение с подкреплением", "q-обучение"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Time Series Analysis"
+          aliases: ["time series", "forecasting", "arima", "prophet", "анализ временных рядов", "прогнозирование", "временные ряды"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+    - name: "Data Engineering"
+      weight: 1.0
+      flags:
+        - "infrastructure"
+        - "technical"
+      skills:
+        - name: "Big Data"
+          aliases: ["big data", "hadoop", "spark", "hive", "hbase", "большие данные", "обработка больших данных"]
+          weight: 1.1
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Data Warehousing"
+          aliases: ["data warehouse", "etl", "data integration", "data modeling", "хранилище данных", "извлечение-трансформация-загрузка", "интеграция данных", "моделирование данных"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Stream Processing"
+          aliases: ["stream processing", "kafka", "flink", "storm", "spark streaming", "потоковая обработка", "обработка потоков данных"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Data Quality"
+          aliases: ["data quality", "data validation", "data testing", "data profiling", "качество данных", "валидация данных", "профилирование данных"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+    - name: "Cloud & DevOps"
+      weight: 0.9
+      flags:
+        - "infrastructure"
+        - "technical"
+      skills:
+        - name: "AWS"
+          aliases: ["aws", "amazon web services", "s3", "ec2", "lambda", "амазон веб сервисы", "облачные сервисы амазон"]
+          weight: 1.1
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Azure"
+          aliases: ["azure", "microsoft azure", "azure data factory", "azure ml", "азур", "микрософт азур"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "GCP"
+          aliases: ["gcp", "google cloud", "bigquery", "cloud ml", "гугл клауд", "облачные сервисы гугл"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Docker"
+          aliases: ["docker", "containers", "kubernetes", "k8s", "докер", "контейнеры", "кубернетис"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "CI/CD"
+          aliases: ["ci/cd", "jenkins", "gitlab ci", "github actions", "непрерывная интеграция", "непрерывная доставка", "автоматизация сборки"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+  business_skills:
+    - name: "Analytics"
+      weight: 0.9
+      flags:
+        - "business"
+        - "analytics"
+      skills:
+        - name: "Business Intelligence"
+          aliases: ["bi", "business intelligence", "power bi", "tableau", "qlik", "бизнес-аналитика", "бизнес-интеллект"]
+          weight: 1.0
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Data Visualization"
+          aliases: ["data visualization", "d3.js", "matplotlib", "seaborn", "plotly", "визуализация данных", "графики", "диаграммы"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Statistical Analysis"
+          aliases: ["statistics", "statistical analysis", "hypothesis testing", "ab testing", "статистический анализ", "проверка гипотез", "а/б тестирование"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "A/B Testing"
+          aliases: ["a/b testing", "experimentation", "causal inference", "а/б тестирование", "эксперименты", "причинно-следственный анализ"]
+          weight: 0.8
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+    - name: "Project Management"
+      weight: 0.8
+      flags:
+        - "business"
+        - "management"
+      skills:
+        - name: "Agile"
+          aliases: ["agile", "scrum", "kanban", "sprint planning", "аджайл", "скрам", "канбан", "планирование спринтов"]
+          weight: 0.9
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Project Planning"
+          aliases: ["project planning", "roadmap", "timeline", "milestones", "планирование проектов", "дорожная карта", "график проекта", "вехи проекта"]
+          weight: 0.8
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Risk Management"
+          aliases: ["risk management", "risk assessment", "mitigation", "управление рисками", "оценка рисков", "снижение рисков"]
+          weight: 0.8
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+  soft_skills:
+    - name: "Communication"
+      weight: 0.7
+      flags:
+        - "soft"
+        - "interpersonal"
+      skills:
+        - name: "Technical Writing"
+          aliases: ["technical writing", "documentation", "reports", "presentations", "техническое письмо", "документирование", "отчеты", "презентации"]
+          weight: 0.8
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Public Speaking"
+          aliases: ["public speaking", "presentations", "conferences", "meetings", "публичные выступления", "презентации", "конференции", "совещания"]
+          weight: 0.7
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+        - name: "Team Collaboration"
+          aliases: ["teamwork", "collaboration", "coordination", "team building", "командная работа", "сотрудничество", "координация", "построение команды"]
+          weight: 0.7
+          level_weights:
+            expert: 1.2
+            advanced: 1.0
+            intermediate: 0.8
+            basic: 0.6
+
+  flags:
+    - name: "core"
+      description: "Основные технические навыки"
+      weight: 1.2
+
+    - name: "technical"
+      description: "Технические навыки"
+      weight: 1.1
+
+    - name: "ai"
+      description: "Навыки в области ИИ"
+      weight: 1.1
+
+    - name: "infrastructure"
+      description: "Навыки в области инфраструктуры"
+      weight: 1.0
+
+    - name: "business"
+      description: "Бизнес-навыки"
+      weight: 0.9
+
+    - name: "analytics"
+      description: "Аналитические навыки"
+      weight: 0.9
+
+    - name: "management"
+      description: "Управленческие навыки"
+      weight: 0.8
+
+    - name: "soft"
+      description: "Мягкие навыки"
+      weight: 0.7
+
+    - name: "interpersonal"
+      description: "Межличностные навыки"
+      weight: 0.7 
